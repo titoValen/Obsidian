@@ -38,3 +38,37 @@
 - **¿Cómo? / Alcanzable:** Considera las condiciones del proyecto para determinar si el objetivo es posible. Responde a ¿Cómo se quiere lograr lo planteado?
 - **¿Con qué? / Realista:** Evalúa los recursos disponibles para alcanzar el objetivo. Responde a ¿Con qué recursos se logrará lo planteado?
 - **¿Cuándo? / Tiempo:** Limita el objetivo a un período de tiempo definido. responde a ¿Cuándo se quiere alcanzar el objetivo?
+# Semana 3
+`Indicador:` Un indicador es una medición que registra un resultado concreto y permite calificar un concepto abstracto. Son esenciales para evaluar si se han alcanzado los objetivos planteados.
+`Indicadores claves de rendimiento (KPIs):` Indican el rendimiento de la planificación en general (además de cada objetivo) y la posibilidad (factibilidad) de alcanzar los objetivos planteados. Son claves para determinar si las acciones requieren ajustes.
+`KPIs del sitio web:` Cada tipo de sitio web tiene KPIs particulares, como clics en formularios, cantidad de suscriptores, carrito abandonados, o tasa de rebote.
+`KPIs por tipo de sitio web:`
+**Institucional:**
+- Clics en la página “contacto” 
+- Cantidad de consultas que llegan desde el formulario de contacto.
+- Cantidad de visitas a la página de productos o servicios.
+**Blog:**
+- Cantidad de comentarios en los posteos del blog. 
+- Cantidad de clics en “artículos relacionados”. 
+- Cantidad de visitas a una categoría del blog determinada.
+- Cantidad de suscripciones al “boletín de noticias”. 
+**Tienda virtual:**
+- Clics en una determinada ficha de producto.
+- Clics en “confirmar compra”.
+- Cantidad de carritos abandonados.
+- Clics en “productos relacionados”.
+**E-learning:**
+- Cantidad de “clases terminadas”
+- Cantidad de “cursos sin comenzar”
+- Cantidad de cursos por alumno.
+- Cantidad de trabajos presentados.
+- Cantidad de consultas en un foro.
+**Lading page (cuando es sobre una oferta puntual):**
+- Cantidad de visitas a la página.
+- Tasa de rebote.
+- Cantidad de clics en el botón de llamado a la acción.
+- Cantidad de consultas que llegan desde el formulario de esa página.
+`KPIs del cliente:` Los KPIs del cliente son métricas relacionadas con los objetivos generales del negocio, como el retorno de la inversión (ROI) y la tasa de conversión. Estos KPIs evalúan si las inversiones del cliente (en tiempo o dinero) están generando los resultados esperando. El ROI mide el retorno financiero, mientras que la tasa de conversión evalúa la efectividad de las acciones en generar ventas u otras conversiones importantes.
+`ROI (Return On Investment):` El ROI mide el retorno de la inversión en término de dinero. Se calcula como: ROI = (ventas - inversión) / inversión. El ROI indica si la inversión se recuperó y cuántas veces volvió. Puede ser positivo, negativo o igual a cero.
+`Tasa de conversión:` La tasa de conversión mide el porcentaje de usuarios que realizan la acción esperada, como una compra o suscripción. Se calcula como: Tasa de conversión = (ventas / visitas) * 100. Una tasa alta indica que los visitantes están cumpliendo el objetivo.
+`Plan de métrica:` El plan de métricas es un documento, o una sección de un documento, donde se establecen los KPIs (Indicadores Clave de Rendimiento) generales del área que se está planificando (marketing, producción, ventas, marketing digital, etc.), así como también la planificación de corto y mediano plazo, los objetivos (SMART) y las métricas e indicadores que se utilizarán para darles seguimiento.
