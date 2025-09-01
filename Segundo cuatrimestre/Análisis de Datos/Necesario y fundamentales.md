@@ -27,3 +27,14 @@
 - El sitio web **es propiedad de la organización**. Mientras que no haya problemas de servidor, el sitio web estará siempre disponible
 - El sitio web permite atender a **múltiples visitantes al mismo tiempo**. Siempre que éste tenga toda la información disponible, va a poder responder las inquietudes de más de un usuario en simultáneo (cuestión que no sucede con las redes sociales ni con el email marketing) y por lo tanto, permitirá acompañar al negocio en la medida que este vaya creciendo.
 # Semana 2
+`Dato:` Un dato es información sobre algo concreto que permite su conocimiento exacto o sirve para deducir consecuencias derivadas de un hecho. Un dato es el resultado de una medición de una variable.
+`Variables:` Magnitud que puede variar y tomar diferentes valores dentro de un conjunto. Las variables generan datos y pueden ser cuantitativo (medible) o cualitativo (observables).
+`Analizar un dato:` Es interpretar el significado de un dato en su contexto. Al analizar un dato implica relacionarlo con mediciones anteriores y otras variables del contexto.
+`Herramientas de analítica web:` Las herramientas brindan datos, es el profesional que debe interpretarlos y convertirlos en información útil para la toma de decisiones.
+`Planificación de Marketing:` Organización de objetivos, metas y acciones en un tiempo determinado, considerando recursos necesarios.
+`Formato SMART:` Es una metodología para plantear objetivos efectivos, estos responden a cinco preguntas.
+- **¿Qué? / Especifico:** El objetivo debe enfocarse en un único aspecto o tarea. Responde a la pregunta ¿Qué se quiere lograr?
+- **¿Cuánto? / Medible:** Debe establecer una cantidad específica que permita evaluar el progreso. Responde a la pregunta ¿En cuánto se quiere lograr lo que se propone?
+- **¿Cómo? / Alcanzable:** Considera las condiciones del proyecto para determinar si el objetivo es posible. Responde a ¿Cómo se quiere lograr lo planteado?
+- **¿Con qué? / Realista:** Evalúa los recursos disponibles para alcanzar el objetivo. Responde a ¿Con qué recursos se logrará lo planteado?
+- **¿Cuándo? / Tiempo:** Limita el objetivo a un período de tiempo definido. responde a ¿Cuándo se quiere alcanzar el objetivo?
