@@ -72,3 +72,28 @@
 `ROI (Return On Investment):` El ROI mide el retorno de la inversión en término de dinero. Se calcula como: ROI = (ventas - inversión) / inversión. El ROI indica si la inversión se recuperó y cuántas veces volvió. Puede ser positivo, negativo o igual a cero.
 `Tasa de conversión:` La tasa de conversión mide el porcentaje de usuarios que realizan la acción esperada, como una compra o suscripción. Se calcula como: Tasa de conversión = (ventas / visitas) * 100. Una tasa alta indica que los visitantes están cumpliendo el objetivo.
 `Plan de métrica:` El plan de métricas es un documento, o una sección de un documento, donde se establecen los KPIs (Indicadores Clave de Rendimiento) generales del área que se está planificando (marketing, producción, ventas, marketing digital, etc.), así como también la planificación de corto y mediano plazo, los objetivos (SMART) y las métricas e indicadores que se utilizarán para darles seguimiento.
+# Semana 4
+`Optimización:` Es el proceso de mejorar un sitio web para que sea más eficiente y utilice menos recursos, con el objetivo de aparecer en los primeros resultados de búsqueda.
+`Motor de búsqueda:` Es el sistema que busca, almacena y presenta resultados relevantes a las consultas de los usuarios. Se diferencia de los navegadores, que son programas para acceder a la web.
+`Importancia del SEO en marketing digital:` El SEO permite que un sitio web aparezca en los primeros resultados de búsqueda sin necesidad de invertir en publicidad (resultados orgánicos).
+`Página de resultados del buscador (SERP):`
+- La SERP es la página que muestra los resultados de una búsqueda. Incluye:
+	- **Resultados SEM:** Anuncios pagados.
+	- **Resultados SEO:** Resultados orgánicos.
+- Google utiliza más de 150 factores para decidir qué página mostrar, agrupados en:
+	- **Relevancia semántica:** Qué tan bien coincide el contenido con la búsqueda del usuario.
+	- **Autoridad:** Cantidad de enlaces externos que apuntan al sitio.
+`Búsqueda del usuario y palabra clave:`
+- **Palabra clave:** Son los términos que los usuarios escriben en el buscador. Son fundamentales para el SEO, ya que determinan ante qué búsquedas aparecerá un sitio web.
+- **Clasificación de palabras clave**:
+	- <u>Por intención del usuario:</u>
+		- *Informativas:* Responden preguntas o brindan información general.
+		- *De navegación:* Buscan un sitio o página específica.
+		- *Comerciales:* Investigan productos o servicios antes de comprar.
+		- *Transaccionales:* Indican intención de realizar una acción (comprar, reservar).
+		- *Multimedial:* Especifican el tipo de contenido (videos, imágenes).
+	- <u>Por longitud:</u>
+		- *Cola corta (Head Tail):* Términos generales con alta competencia.
+		- *Cola media (Middle Tail):* Más específicos, con competencia moderada.
+		- *Cola larga (Long Tail):* Muy específicos, con baja competencia.
+`Planificación estratégica de palabra clave:` Es el primer paso en una estrategia SEO. Consiste en identificar las palabras clave relevantes para cada página del sitio web, considerando la intención del usuario y la longitud de las palabras claves.
