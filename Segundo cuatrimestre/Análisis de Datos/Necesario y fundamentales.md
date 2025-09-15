@@ -97,3 +97,45 @@
 		- *Cola media (Middle Tail):* Más específicos, con competencia moderada.
 		- *Cola larga (Long Tail):* Muy específicos, con baja competencia.
 `Planificación estratégica de palabra clave:` Es el primer paso en una estrategia SEO. Consiste en identificar las palabras clave relevantes para cada página del sitio web, considerando la intención del usuario y la longitud de las palabras claves.
+
+# Semana 5
+`¿Cómo funciona el motor de búsqueda?:`
+`Crawling (rastro):` Un crawler web (spider web) o “araña” es un programa que rastrea y analiza el contenido de un sitio web. En la primera tarea del motor de búsqueda, el crawler descubre contenidos nuevos en Internet, recorriendo los sitios, principalmente usando los enlaces (links) que los conectan entre sí.
+`Indexing (indexación):` Es la etapa donde se almacena los datos recopilados por la araña en el índice del motor de búsqueda.
+`Algoritmo:` Es el encargado de ordenar los contenidos del índice ante la búsqueda del usuario. Es el que conforma la SERP teniendo en cuenta múltiples factores para determinar cuál es el orden de los resultados en base a la relevancia del contenido de cada página web que se encontró en el índice.
+`Pilares del SEO On Site:`
+- **Usabilidad** - ¿Cómo será la experiencia del usuario en este sitio web?
+- **Indexación** - ¿El Crawling puede tomar la información más importante y llevársela al índice?
+- **Accesibilidad** - ¿El Crawling puede acceder a los contenidos y comprender de qué se tratan?
+- **Relevancia** - ¿Este contenido responde a la inquietud del usuario?
+**Usabilidad:** La experiencia que el usuario tendrá en una página web es un factor determinante para Google. Cuando en SEO trabajamos sobre usabilidad, no nos centramos en el usuario sino en los aspectos que Google considera relevantes para ese usuario. En ese sentido, trabajamos dos cuestiones:
+- <u>Velocidad del sitio web:</u> cuando el algoritmo tiene que decidir entre dos páginas web para mostrar en la SERP, siempre elegirá mostrar en el primer lugar aquella que tiene mejor velocidad de carga porque entiende que el usuario no tendrá una buena experiencia si el sitio web demora en mostrar el contenido.
+- <u>Diseño adaptativo o responsive:</u> cuando un usuario realiza una búsqueda desde un dispositivo móvil y el algoritmo tiene que decidir que páginas mostrar en la SERP, priorizará aquellas cuyo diseño se adapte a dispositivos móviles, pues entiende que el usuario tendrá una mala experiencia si el usuario visualiza un sitio diseñado para computadora desde su celular o su tablet.
+**Indexación:** Trabajar sobre la indexación es definir qué páginas del sitio web son las más importantes para la estrategia (No es lo mismo "sitio web" y "página web". Un sitio web está compuesto por un conjunto de página web.) Un sitio web tiene muchas páginas, pero no todas son importantes. Cuando trabajamos sobre la indexación estamos definiendo cuáles son las páginas del sitio web que queremos que aparezcan en Google cuando los usuarios realizan búsquedas.
+1. _Robots.txt_: estructura de una web con instrucciones de rastreo para los motores de búsqueda, donde se indica cuáles son las páginas del sitio web que el crawler no debe rastrear.
+2. _Sitemap (mapa del sitio)_: Un sitemap es un archivo XML que contiene una lista de las páginas del sitio y la relación entre ellas. Proporciona además información adicional para el crawler que facilitará su rastreo, tal como con qué frecuencia la página cambia sus contenidos, cuándo fue su última actualización y qué tan importante es respecto al resto de las páginas del mismo sitio.
+**Accesibilidad:** En este pilar trabajamos para asegurarnos que el rastreador pueda leer y comprender efectivamente de qué se trata el contenido.
+Para ello vamos a hacer un listado de los aspectos que impiden la lectura del crawler.
+- <u>Formularios de inicio de sesión y de búsqueda:</u> los crawler no pueden utilizar los formularios de búsqueda ni acceder al contenido que requiere que el usuario inicie sesión.
+- <u>HTML es el lenguaje del crawler:</u> por lo tanto, siempre suponemos que todo lo que no esté en html, el crawler no lo puede leer.
+	- _Navegaciones en javascript:_ Google ha mejorado mucho en el rastreo y la comprensión de Javascript, pero aún no es un proceso perfecto. La forma de asegurarse que Google encuentre comprenda e indexe algo es poniéndolo en HTML.
+	- _Texto en una imagen:_ las infografías o imágenes de cabecera pueden ser importantes para el diseño del sitio web y la lectura del usuario, pero todo ese texto que no aparece en el html, no podrá ser leído por el rastreador.
+	- _Códigos de estado de respuesta HTTP y errores:_ Los códigos de estado HTTP los genera el servidor que aloja el sitio cuando responde a una solicitud de búsqueda.
+**Relevancia semántica:**
+`¿Qué es una meta etiqueta?:` son comandos en HTML que describen el contenido de una página web para que los buscadores puedan encontrarla.
+`Las meta etiquetas más importante:` para querer posicionar es trabajar sobre etiquetas: titulo, descripción y alt text. Pero estas etiquetas no son importantes solo para el crawler, sino que también lo son para el usuario.
+Cuando un usuario realiza una búsqueda, el resultado que ve en la SERP es creado con la información que está escrita en las etiquetas título y descripción.
+La información que se muestra en la SERP es la que hará que el usuario se decida por visitar el enlace o no hacerlo.
+`Estructura de la URL:` La URL es la ubicación precisa de una página dentro de un sitio web. Es lo que un rastreador debe leer y entender para acceder a una página en primer lugar. En este sentido, se recomiendan las siguientes cuestiones:
+- <u>La legibilidad:</u> tanto los usuarios como el crawler deben ser capaces de reconocer los caracteres utilizados en la URL para poder encontrar el sitio web y cada una de las páginas.
+- <u>La navegación:</u> los crawlers también utilizan la estructura de las URL para trazar un mapa del sitio. Una estructura bien pensada desde las URLs hará que el sitio sea más fácil de rastrear e indexar para Google.
+`Cantidad de texto de la página:` La recomendación general es que, un texto redactado para SEO debería tener al menos 300. Nuestra postura como equipo docente es la siguiente: no es tan importante cuántas palabras tenga el texto, pero sí importa la calidad del mismo y la capacidad de dar respuesta al usuario. Eso sí, siempre que comenzamos con un proyecto nuevo “vamos a lo seguro”, es decir buscamos que esas primeras páginas que se publican tengan al menos 300 palabras.
+`Estructura del texto:` Al igual que en cualquier otro medio de comunicación escrito, es sumamente importante organizar y estructurar el texto para facilitar la lectura y comprensión del usuario.
+Para mejorar el contenido de la página para el usuario y el crawler será necesario estructurar el texto:
+- <u>Un único h1:</u> es el título principal de la página y debe contener la palabra clave (long tail).
+- <u>h2, h3 y siguientes:</u> para enunciar los subtemas que se desarrollan en esa página. En estos puntos se pueden utilizar palabras clave middle tail relacionadas con la long tail principal.
+- <u>Palabras resaltadas:</u> en negrita, cursiva, o subrayadas. Estos serán los términos “sueltos” dentro del texto que se relacionan con los títulos.
+- <u>Listas:</u> con numeración o viñetas. Bajo subtítulos relevantes, le dicen al crawler que la página está buscando dar respuesta rápida a una consulta del usuario. Son muy útiles y cada vez más valiosas para SEO.
+`En búsqueda de coherencia:` El crawler tiene muy pocos segundos para rastrear un sitio web. Seguramente no lea absolutamente todo el contenido del sitio pero sí todos estos elementos destacados. Es importante entender que el crawler buscará relacionar todos estos elementos de una página entre sí, y también con otras páginas del sitio. Si encuentra discrepancias, es probable que no considere que el contenido es de calidad y que, al final, esa página no se muestre en la SERP.
+`¿Y la etiqueta “palabra clave”?:` Seguramente escuchaste hablar de la etiqueta html llamada “palabra clave” (keyword). Es cierto que esa etiqueta existe y se puede utilizar en el código de las páginas de un sitio web.
+Pero, en la época del black hat SEO se abusó tanto de esta etiqueta, que Google ha decidido hace mucho no utilizarla para indexar el contenido
