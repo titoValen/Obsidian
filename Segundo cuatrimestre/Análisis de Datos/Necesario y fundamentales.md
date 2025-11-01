@@ -188,3 +188,55 @@ Ejemplo:
 | **De frase:**  Tiene que estar escrito igual que lo declarado entre comillas                                                            | “pasajes baratos para navidad”            | **Pasajes baratos para navidad** a Miami  | Pasajes para navidad a Miami                 |
 | **Exacta:** Solo muestra anuncios con lo indicado entre corchetes                                                                       | [pasajes baratos a Chile]                 | **Pasajes baratos a Chile**               | Pasajes baratos a Santiago de Chile          |
 | **Negativa:** Excluye las palabras claves indicadas con un signo menos adelante                                                         | pasajes baratos  -avión                   | **Pasajes baratos** a Miami               | **pasajes baratos** en **avión** a Miami     |
+
+## Semana 9
+`Estructura de la cuenta de Google Ads:` Una cuenta de Google Ads tiene una estructura similar a la de una pirámide  o un árbol.
+En el nivel superior de la pirámide encontramos todas aquellas cuestiones que tienen que ver con la administración de esa cuenta de Google Ads, es decir, qué usuarios tienen acceso y qué tienen permitido hacer.
+En el siguiente nivel están las campañas que engloba varios tipos de anuncios, y tiene un presupuesto destinado que pagará por esa campaña y no por otra.
+Y por ultimo, aparecen los grupos de anuncios que es el nivel que podemos indicarle a Google Ads cuáles son las palabras clave ante las que quiero que mi anuncio se muestre.
+`Una campaña publicitaria:` Una campaña publicitaria es un conjunto de anuncios de distintos tipos donde todos transmiten el mismo mensaje y todos buscan conseguir el mismo objetivo.
+`Una campaña de Google Ads:` Para comenzar a anunciar en Google Ads y crear campañas será preciso seguir una serie de pasos.
+La plataforma nos va guiando en cada una de las etapas, pero para poder avanzar y alcanzar los objetivos comerciales, el anunciante deberá saber qué significa cada una de las opciones que le da la herramienta.
+**Objetivo de la campaña:** Ninguna acción de marketing digital debería comenzar sin establecerse un objetivo. Las plataformas publicitarias tienen esto muy en claro y por eso, para comenzar a configurar una campaña publicitaria, Google Ads comienza por preguntar: ¿qué es lo que querés lograr? es decir ¿cuál es tu objetivo con esta campaña?
+Existen 7 objetivos de campaña de Google Ads:
+
+| Objetivo                                       |                                                                                                                                                                                  |
+| ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **VENTA**                                      | Aumentar las ventas online, en la app  o por teléfono (no en el local físico)                                                                                                    |
+| **CLIENTES POTENCIALES**                       | Permite recopilar información de los clientes potenciales directamente desde los anuncios o el sitio web.  Puede ser llenando un formulario o realizando una llamada telefónica. |
+| **TRÁFICO DEL SITIO WEB**                      | Que el usuario visite el sitio web.                                                                                                                                              |
+| **CONSIDERACIÓN DE LA MARCA  Y EL PRODUCTO**   | (solo permite anuncios de video) Invita  a los usuarios a ver distintos productos  o servicios de la marca                                                                       |
+| **RECONOCIMIENTO Y ALCANCE  DE LA MARCA**      | Llegar a un público (mucho) más amplio para generar renombre y reconocimiento de marca -aunque no todos los usuarios efectivamente estén dispuestos a comprar-.                  |
+| **PROMOCIÓN DE APLICACIÓN**                    | Que los usuarios instalen y/o interactúen con la app.                                                                                                                            |
+| **VISITAS A LA TIENDA  Y PROMOCIONES LOCALES** | Promueve las visitas a locales físicos.                                                                                                                                          |
+Al momento de pensar los objetivos de la campaña de Google Ads debemos recordar que el cliente deberá contar con un presupuesto en dinero y que, una vez invertido, el cliente esperará que esa inversión genere ventas. 
+`Tipo de campaña:` Según el objetivo elegido, Google Ads nos ofrecerá distintos tipos de campañas a realizar. Las campañas más significativas son: 
+**Campañas de búsqueda:** La característica principal de los anuncios que se muestran en una campaña en la Red de Búsqueda es que se muestra inmediatamente después que un usuario realizó una búsqueda. Los anuncios pueden mostrarse en:
+- Las páginas de resultados de búsqueda de Google.
+- Otros sitios web de Google, como Maps y Shopping.
+- Los sitios web de búsqueda asociados con Google para mostrar anuncios.
+**Campaña de Display:** Una campaña den la Red de Display muestra los anuncios (usualmente en formato imagen o vídeo) en espacios publicitarios de sitios web que no necesariamente son propiedad de Google, pero que habilitan un lugar en el sitio web para mostrar anuncios.
+Entonces, los anuncios que aparecen en la red de display pueden mostrarse en:
+- Sitios web de Google, como YouTube, Blogger y Gmail.
+- Sitios web asociados en Internet. 
+**Campañas de vídeo:** Las campañas de vídeo permiten mostrar anuncios en formato de vídeos, ya sea en YouTube o en sitios web y aplicaciones donde Google tenga permitido mostrar sus anuncios.
+Para realizar campañas de vídeo se recomienda que el anunciante, primero, organice toda la cuestión en relación a la creación de las piezas y configure un canal de YouTube para tal fin.
+Luego sí, estará listo para comenzar a hacer anuncios con este formato.
+**Campañas de Shopping:** Las campañas de Shopping son aquellas que, ante una búsqueda del usuario, muestra una ficha de producto con los datos centrales de dicho producto etiquetado como “patrocinado”. 
+Para que el anunciante pueda aparecer en estos resultados es preciso que, además de tener una cuenta de Google Ads, tenga una cuenta en Merchant Center. 
+`Oferta:` En este paso el anunciante le dice a Google Ads por cuál interacción del usuario con el anuncio está dispuesto a pagar. 
+La oferta se relaciona con el objetivo comercial y de campaña de Ads que se quiere alcanzar.
+Según el objetivo de campaña elegido, Google Ads permitirá ofertar de alguna de las siguientes maneras: 
+- Clics: Las ofertas de costo por clic (CPC), aquellas en las que el anunciante sólo paga cuando alguna persona hace clic en el anuncio. (si el anuncio se mostró, pero el usuario no hizo clic en él, el anunciante no paga).
+- Impresiones: En lugar de pagar por los clics, es posible pagar por la cantidad de veces que el anuncio se muestra. En este caso se utilizarán las ofertas de costo por cada mil impresiones visibles (vCPM), ya que paga por cada 1.000 veces que su anuncio aparece y es visible.
+- Conversiones: Se indica el importe que está dispuesto a pagar por una conversión o el costo por acción (CPA).
+- Visitas (vídeo): Va a evaluar el nivel de participación de los espectadores con el contenido de vídeo, dónde eligen ver sus vídeos y cuándo dejan de ver su contenido, se utilizará las ofertas de costo por vistas (CPV)
+`Orientaciones y públicos:` Es para definir a qué público se quiere llegar (aquello que en marketing llamados "segmentación") y para ello Google Ads nos permitirá establecer parámetros centrales:
+- Ubicación: Se refiere a la segmentación geográfica.  ¿En qué lugares del mundo queremos que se muestre  el anuncio? 
+- Idioma: Permite seleccionar el idioma que hablan los usuarios a los que queremos llegar.
+- Segmentos de público: Hace referencia a los visitantes que han interactuado con anterioridad con el sitio web o la aplicación, y a sus intereses.
+`Presupuesto:` Google Ads permite establecer un presupuesto diario para las campañas.
+El presupuesto diario promedio es el importe promedio que se desea invertir cada día a lo largo del mes. ¿qué significa esto? que la inversión puede variar cada día.  
+Es decir, algunos días se va a pagar más y otros días menos, pero en promedio se estará pagando el monto que se indicó.
+Más allá de estas posibles diferencias es importante saber que nunca pagarás más que el límite de pago mensual.
+El límite de pago mensual es: presupuesto diario promedio que se estableció, multiplicado por la cantidad promedio de días en un mes. 
