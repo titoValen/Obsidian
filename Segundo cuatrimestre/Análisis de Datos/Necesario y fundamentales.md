@@ -227,16 +227,40 @@ Para que el anunciante pueda aparecer en estos resultados es preciso que, ademá
 `Oferta:` En este paso el anunciante le dice a Google Ads por cuál interacción del usuario con el anuncio está dispuesto a pagar. 
 La oferta se relaciona con el objetivo comercial y de campaña de Ads que se quiere alcanzar.
 Según el objetivo de campaña elegido, Google Ads permitirá ofertar de alguna de las siguientes maneras: 
-- Clics: Las ofertas de costo por clic (CPC), aquellas en las que el anunciante sólo paga cuando alguna persona hace clic en el anuncio. (si el anuncio se mostró, pero el usuario no hizo clic en él, el anunciante no paga).
-- Impresiones: En lugar de pagar por los clics, es posible pagar por la cantidad de veces que el anuncio se muestra. En este caso se utilizarán las ofertas de costo por cada mil impresiones visibles (vCPM), ya que paga por cada 1.000 veces que su anuncio aparece y es visible.
-- Conversiones: Se indica el importe que está dispuesto a pagar por una conversión o el costo por acción (CPA).
-- Visitas (vídeo): Va a evaluar el nivel de participación de los espectadores con el contenido de vídeo, dónde eligen ver sus vídeos y cuándo dejan de ver su contenido, se utilizará las ofertas de costo por vistas (CPV)
+- <u>Clics:</u> Las ofertas de costo por clic (CPC), aquellas en las que el anunciante sólo paga cuando alguna persona hace clic en el anuncio. (si el anuncio se mostró, pero el usuario no hizo clic en él, el anunciante no paga).
+- <u>Impresiones:</u> En lugar de pagar por los clics, es posible pagar por la cantidad de veces que el anuncio se muestra. En este caso se utilizarán las ofertas de costo por cada mil impresiones visibles (vCPM), ya que paga por cada 1.000 veces que su anuncio aparece y es visible.
+- <u>Conversiones:</u> Se indica el importe que está dispuesto a pagar por una conversión o el costo por acción (CPA).
+- <u>Visitas (vídeo):</u> Va a evaluar el nivel de participación de los espectadores con el contenido de vídeo, dónde eligen ver sus vídeos y cuándo dejan de ver su contenido, se utilizará las ofertas de costo por vistas (CPV)
 `Orientaciones y públicos:` Es para definir a qué público se quiere llegar (aquello que en marketing llamados "segmentación") y para ello Google Ads nos permitirá establecer parámetros centrales:
-- Ubicación: Se refiere a la segmentación geográfica.  ¿En qué lugares del mundo queremos que se muestre  el anuncio? 
-- Idioma: Permite seleccionar el idioma que hablan los usuarios a los que queremos llegar.
-- Segmentos de público: Hace referencia a los visitantes que han interactuado con anterioridad con el sitio web o la aplicación, y a sus intereses.
+- <u>Ubicación:</u> Se refiere a la segmentación geográfica.  ¿En qué lugares del mundo queremos que se muestre  el anuncio? 
+- <u>Idioma:</u> Permite seleccionar el idioma que hablan los usuarios a los que queremos llegar.
+- <u>Segmentos de público:</u> Hace referencia a los visitantes que han interactuado con anterioridad con el sitio web o la aplicación, y a sus intereses.
 `Presupuesto:` Google Ads permite establecer un presupuesto diario para las campañas.
 El presupuesto diario promedio es el importe promedio que se desea invertir cada día a lo largo del mes. ¿qué significa esto? que la inversión puede variar cada día.  
 Es decir, algunos días se va a pagar más y otros días menos, pero en promedio se estará pagando el monto que se indicó.
 Más allá de estas posibles diferencias es importante saber que nunca pagarás más que el límite de pago mensual.
 El límite de pago mensual es: presupuesto diario promedio que se estableció, multiplicado por la cantidad promedio de días en un mes. 
+## Semana 10
+`¿Qué es una etiqueta?` Una etiqueta, también conocida como píxel o fragmento, es un pequeño fragmento de código en una página web específica.
+Entonces, las etiquetas son fragmentos contenidos en el código de un sitio web que pueden generar cookies cuando un usuario hace algo que la etiqueta debe medir.
+Por ejemplo, una etiqueta de conversión, como conversion.js, podría generar una cookie cuando un usuario realiza una compra.
+`¿Qué son las Cookies?` Las cookies son pequeños archivos de texto que se generan cuando un usuario visita un sitio web. Una cookie registra cómo un usuario único interactuó con el sitio web que colocó la cookie. Las cookies propias y de terceros difieren principalmente en cómo se generan y almacenan.
+- <u>Las cookies propias</u> son generadas y almacenadas por el sitio web que visita un usuario. Históricamente, su trabajo principal ha sido optimizar la experiencia del usuario dentro del sitio web. Los sistemas más nuevos usan cookies propias para la medición porque son más confiables.
+- <u>Las cookies de terceros</u> son generadas y almacenadas por dominios distintos al sitio web que visita el usuario. Debido al ecosistema de privacidad cambiante, las cookies de terceros son cada vez menos confiables.
+`Opciones de etiquetado:` El mejor método para medir las conversiones en línea es utilizar herramientas que configuren cookies propias.
+Dentro de las opciones que ofrece Google es posible utilizar la “etiqueta de Google” también conocida como gtag.js (para vincular todas las plataformas de Google) o una herramienta como Google Tag Manager (para todas las etiquetas de Google y de otras plataformas).
+**Etiqueta de Google:** La etiqueta de Google (gtag.js) es una etiqueta única que se puede agregar al sitio web para vincularlo a distintas herramientas de Google.
+En lugar de administrar varias etiquetas para diferentes cuentas de productos de Google, puede usar la etiqueta de Google en todo el sitio web y conectarlo con varios destinos.
+La etiqueta de Google permite enviar datos del sitio web a destinos de productos de Google vinculados (Google Ads y Google Analytics) para medir la eficiencia del sitio web y de los anuncios.
+**Google Tag Manager:** es un sistema de gestión de etiquetas que permite actualizar en el sitio web o aplicación móvil códigos de seguimiento y fragmentos de código relacionados (etiquetas).
+Con un solo etiqueta podes hacer seguimiento a Google Ads, Display, Search, etc; y también seguimiento de campaña de redes sociales (los pixeles Twitter, LinkeIn, etc.)
+`¿Qué es el retargeting?` El Retargeting es una forma de publicidad digital basada en función de un comportamiento anterior del usuario. Ese comportamiento anterior es el que dispara el anuncio.
+Para poder hacer retargeting es preciso haber realizado un seguimiento de conversiones con cookies y etiquetas en el sitio web. Una vez que la cookie se instala en el navegador del usuario, el anunciante podrá mostrar anuncios (a menudo anuncios gráficos) a ese usuario en cualquier otro lugar de Internet a través de un intercambio de anuncios.
+`Retargeting y remarketing, ¿son lo mismo?` Aunque a veces, remarketing y retargeting se utilizan como sinónimos, son dos estrategias parecidas, pero no iguales.
+Es cierto que ambas son acciones dirigidas a un usuario que no ha realizado una conversión.
+En este sentido, la marca busca volver a ponerse en contacto con ese usuario para que vuelva al sitio web, y vea nuevamente el producto. Si la oferta es de valor para el usuario, éste convertirá.
+El **retargeting se hace mediante las cookies** que se descargaron en el navegador. La plataforma de anuncios, leerá esas cookies, con ayuda del etiquetado, y mostrará los anuncios a esos usuarios que no han realizado la compra.
+El **remarketing** también implica que la marca vuelva a aparecer en la realidad del usuario a través de un medio digital, pero en este caso, la marca **si tiene un dato de contacto del usuario** y puede llamar la atención por otro canal.
+`Los anuncios de Display:` Display es un formato publicitario online en el que los anuncios se muestran en forma de banners en sitios web que ofrecen espacios para ello.
+En su forma más básica, estos banners son una combinación de imágenes y texto. También pueden incluir audio, vídeo u otros formatos interactivos.
+Si bien es cierto que los anuncios de display se pueden mostrar a las personas que aún no conocen la marca y no han visitado aún el sitio web, lo más atractivo de este formato es que permite volver a mostrar un producto o servicio a alguien que aún no ha realizado una compra: el retargeting. 
