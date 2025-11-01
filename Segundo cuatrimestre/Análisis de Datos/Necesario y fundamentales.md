@@ -1,4 +1,5 @@
-# Semana 1
+# Primer parcial
+## Semana 1
 `Ecosistema digital:` El *Ecosistema Digital* es un elemento que integra una estrategia de marketing digital y sus vinculaciones. Esto implica que un *Ecosistema Digital* es que todos los activos digitales estén trabajando para el mismo objetivo. **Ejemplo:** Si usas las redes sociales para un mismo propósito eso sería un *Ecosistema Digital*, si el caso fue que no, entonces sería un usuario multiplataforma.
 - `Generar tráfico calificado`: Hace referencia a la segmentación, al público objetivo que definimos en marketing. Seguramente nuestros activos digitales tengan muchas visitas, pero el ecosistema digital trabajará para que esas visitas sean las personas a las que definimos como nuestro mercado meta (target).
 - `Convertir visitas a leads`: Un lead es una visita que abre una conversación con la marca y deja algún dato para que luego podamos contactarlo. Entonces, puede ser que muchas personas visiten nuestro sitio web, pero si no dejan un dato de contacto, no podremos continuar la comunicación de marketing. Además de obtener visitas que pertenezcan al target, el ecosistema digital trabajará para que esos visitantes se interesen lo suficiente por lo que la marca está ofreciendo cómo para dejar algún dato de contacto.
@@ -26,7 +27,7 @@
 - El sitio web funciona como si **“un local comercial” estuviera abierto los 365 días del año, las 24 horas del día** permitiendo al usuario ponerse en contacto con la marca fuera de horario laboral.
 - El sitio web **es propiedad de la organización**. Mientras que no haya problemas de servidor, el sitio web estará siempre disponible
 - El sitio web permite atender a **múltiples visitantes al mismo tiempo**. Siempre que éste tenga toda la información disponible, va a poder responder las inquietudes de más de un usuario en simultáneo (cuestión que no sucede con las redes sociales ni con el email marketing) y por lo tanto, permitirá acompañar al negocio en la medida que este vaya creciendo.
-# Semana 2
+## Semana 2
 `Dato:` Un dato es información sobre algo concreto que permite su conocimiento exacto o sirve para deducir consecuencias derivadas de un hecho. Un dato es el resultado de una medición de una variable.
 `Variables:` Magnitud que puede variar y tomar diferentes valores dentro de un conjunto. Las variables generan datos y pueden ser cuantitativo (medible) o cualitativo (observables).
 `Analizar un dato:` Es interpretar el significado de un dato en su contexto. Al analizar un dato implica relacionarlo con mediciones anteriores y otras variables del contexto.
@@ -38,7 +39,7 @@
 - **¿Cómo? / Alcanzable:** Considera las condiciones del proyecto para determinar si el objetivo es posible. Responde a ¿Cómo se quiere lograr lo planteado?
 - **¿Con qué? / Realista:** Evalúa los recursos disponibles para alcanzar el objetivo. Responde a ¿Con qué recursos se logrará lo planteado?
 - **¿Cuándo? / Tiempo:** Limita el objetivo a un período de tiempo definido. responde a ¿Cuándo se quiere alcanzar el objetivo?
-# Semana 3
+## Semana 3
 `Indicador:` Un indicador es una medición que registra un resultado concreto y permite calificar un concepto abstracto. Son esenciales para evaluar si se han alcanzado los objetivos planteados.
 `Indicadores claves de rendimiento (KPIs):` Indican el rendimiento de la planificación en general (además de cada objetivo) y la posibilidad (factibilidad) de alcanzar los objetivos planteados. Son claves para determinar si las acciones requieren ajustes.
 `KPIs del sitio web:` Cada tipo de sitio web tiene KPIs particulares, como clics en formularios, cantidad de suscriptores, carrito abandonados, o tasa de rebote.
@@ -72,7 +73,7 @@
 `ROI (Return On Investment):` El ROI mide el retorno de la inversión en término de dinero. Se calcula como: ROI = (ventas - inversión) / inversión. El ROI indica si la inversión se recuperó y cuántas veces volvió. Puede ser positivo, negativo o igual a cero.
 `Tasa de conversión:` La tasa de conversión mide el porcentaje de usuarios que realizan la acción esperada, como una compra o suscripción. Se calcula como: Tasa de conversión = (ventas / visitas) * 100. Una tasa alta indica que los visitantes están cumpliendo el objetivo.
 `Plan de métrica:` El plan de métricas es un documento, o una sección de un documento, donde se establecen los KPIs (Indicadores Clave de Rendimiento) generales del área que se está planificando (marketing, producción, ventas, marketing digital, etc.), así como también la planificación de corto y mediano plazo, los objetivos (SMART) y las métricas e indicadores que se utilizarán para darles seguimiento.
-# Semana 4
+## Semana 4
 `Optimización:` Es el proceso de mejorar un sitio web para que sea más eficiente y utilice menos recursos, con el objetivo de aparecer en los primeros resultados de búsqueda.
 `Motor de búsqueda:` Es el sistema que busca, almacena y presenta resultados relevantes a las consultas de los usuarios. Se diferencia de los navegadores, que son programas para acceder a la web.
 `Importancia del SEO en marketing digital:` El SEO permite que un sitio web aparezca en los primeros resultados de búsqueda sin necesidad de invertir en publicidad (resultados orgánicos).
@@ -98,7 +99,7 @@
 		- *Cola larga (Long Tail):* Muy específicos, con baja competencia.
 `Planificación estratégica de palabra clave:` Es el primer paso en una estrategia SEO. Consiste en identificar las palabras clave relevantes para cada página del sitio web, considerando la intención del usuario y la longitud de las palabras claves.
 
-# Semana 5
+## Semana 5
 `¿Cómo funciona el motor de búsqueda?:`
 `Crawling (rastro):` Un crawler web (spider web) o “araña” es un programa que rastrea y analiza el contenido de un sitio web. En la primera tarea del motor de búsqueda, el crawler descubre contenidos nuevos en Internet, recorriendo los sitios, principalmente usando los enlaces (links) que los conectan entre sí.
 `Indexing (indexación):` Es la etapa donde se almacena los datos recopilados por la araña en el índice del motor de búsqueda.
@@ -139,3 +140,51 @@ Para mejorar el contenido de la página para el usuario y el crawler será neces
 `En búsqueda de coherencia:` El crawler tiene muy pocos segundos para rastrear un sitio web. Seguramente no lea absolutamente todo el contenido del sitio pero sí todos estos elementos destacados. Es importante entender que el crawler buscará relacionar todos estos elementos de una página entre sí, y también con otras páginas del sitio. Si encuentra discrepancias, es probable que no considere que el contenido es de calidad y que, al final, esa página no se muestre en la SERP.
 `¿Y la etiqueta “palabra clave”?:` Seguramente escuchaste hablar de la etiqueta html llamada “palabra clave” (keyword). Es cierto que esa etiqueta existe y se puede utilizar en el código de las páginas de un sitio web.
 Pero, en la época del black hat SEO se abusó tanto de esta etiqueta, que Google ha decidido hace mucho no utilizarla para indexar el contenido
+
+---
+# Segundo parcial
+## Semana 8
+`SEM:` Son las siglas de SEARCH ENGINE MARKETING o "Marketing en motores de búsqueda" y se refiere a la táctica de aparecer en los primeros lugares de la página de resultados cuando un usuario realiza una búsqueda, pero para aparecer e esos resultados implica una inversión en dinero en "anuncios".
+`¿Cómo funciona SEM?:` Al igual que en SEO, el proceso comienza con un usuario qué realiza una búsqueda en una buscador.
+A esa búsqueda la llamamos "palabra clave".
+En el momento qué el usuario inicia la búsqueda, la plataforma de anuncios chequea en sus registros qué anunciantes están dispuestos a pagar por aparecer en esa búsqueda.  
+Seguramente serán muchos, así que, la plataforma realiza la “Subasta” (la veremos en breve), compara cada opción y, elige según puntaje otorgado, qué anuncios mostrar.
+Ninguno de los anunciantes todavía ha pagado por aparecer en ese lugar. 
+Ahora el usuario está viendo los resultados de la búsqueda, pero todavía no hizo clic en ninguno de ellos. La plataforma de anuncios no les ha cobrado y no lo habrá hasta qué el usuario no haga clic. 
+Cuando el usuario haga clic en un resultado, solo ese anunciante deberá pagar por haber salido en los resultados de búsqueda.  Es por todo esto qué a este formato publicitario se lo llama “Pago Por Clic”. 
+`¿Cómo funciona Google Ads?:` Hay una descripción del funcionamiento de Google Ads podemos detectar dos cuestiones centrales a definir en la estrategia:
+- <u>Palabra clave:</u> ¿Ante qué búsqueda de los usuarios quiero qué aparezcan mi sitio web?
+- <u>Subasta:</u> ¿Quiénes están compitiendo por aparecer con esas mismas palabras clave?
+**La subasta:** Google Ads determina que anuncios deben mostrarse mediante una subasta de anuncios ultrarrápida que tiene lugar cada vez que alguien hace una búsqueda en Google.
+En la subasta de anuncios hay distintos factores que determinan qué anuncios aparecerán y en qué orden. 
+Durante la subasta se va conformando el “ranking de anuncios", un valor que se usa para determinar si el anuncio se mostrará o no y, si lo hace, para determinar en qué posición de la página se mostrará en relación con otros anuncios.
+El ranking de anuncios vuelve a calcularse en cada subasta, por lo que puede fluctuar según el caso en función de la competencia.
+El resultado de la subasta es justamente cuando los anuncios terminan mostrándose en la SERP. 
+**La puja:** La Puja es el importe máximo que el anunciante está dispuesto a pagar por recibir un clic en su anuncio.
+El anunciante puede cambiar el monto de la puja en cualquier momento. 
+Existen distintos tipos de ofertas qué el anunciante puede realizar. Se las mencionan cómo CPC haciendo referencia al “costo por clic”: 
+- <u>CPC Mínimo:</u> El precio mínimo que el anunciante considera que es necesario pagar. 
+- <u>CPM Promedio:</u> El importe promedio que se le cobró por un clic en su anuncio. Para calcular el costo por clic promedio se divide el costo total de sus clics por la cantidad total de clics. 
+- <u>CPC Máximo:</u> determina cuánto es el máximo que el anunciante está dispuesto a pagar por cada clic.
+**La relevancia:** Podríamos decir que la relevancia de un anuncio es cuán valioso va a ser para el usuario ver ese anuncio como respuesta a su consulta. En este sentido hay dos factores centrales qué utiliza Google Ads para medir la relevancia: La Calidad del Anuncio y las extensiones de anuncios.
+- <u>La calidad del anuncio:</u> Para Google Ads la prioridad sigue siendo el usuario, entonces también analiza lo relevante y útil que es el anuncio propuesto y la página web a la que enlazan para los usuarios que los verán.
+	- Relevancia del texto del anuncio respecto a la palabra: Mide cuanto coincide la consulta del usuario con la información en qué ofrece darle el anuncio en el texto del mismo.
+	- La calidad de su experiencia tras llegar a tu página de destino: Google Ads verifica que la landing page cumpla con los estándares de Google.  (Mobile First - Estructura HTML Semántica – Sin Links rotos - Uso de metadata - White SEO) 
+	- La probabilidad de que los usuarios hagan clic en él: es una métrica conocida como CTR o Clic Through Rate qué se calcula midiendo los clics qué recibió ese anuncio anteriormente en relación a las veces qué se mostró este anuncio (a las veces que se muestra el anuncio las llamamos impresiones). 
+- <u>Las extensiones de anuncios:</u> También llamadas "recursos de anuncio" son información adicional qué se le puede agregar al anuncios, como ser un número de teléfono o más enlaces a páginas específicas de tu sitio web (siempre buscando agregar valor para el usuario). Google Ads realiza una estimación del impacto que tendrán en el rendimiento del anuncio los recursos y otros formatos de anuncio que utilices. 
+**Las palabras clave de SEM:** Las palabras clave del SEM no son lo mismo que el SEO, el SEM las palabras clave se clasifican en otra manera que es "según su concordancia", es decir, cuan exacto debe ser lo qué escribe el usuario en relación a lo qué estableció el anunciante.
+Es así que tendremos 5 categorías posibles:
+- <u>Concordancia amplia:</u> Permite que se muestre el anuncio en frases que se parezcan, diferentes variaciones e incluso sinónimos de las palabras que se han considerado como palabras clave.
+- <u>Concordancia amplia modificada:</u> Se le indica a Google Ads que, para que se muestre el anuncio, es preciso que el usuario escriba una o más palabras determinadas de forma exacta, aunque luego el resto de palabras de la búsqueda pueden variar.
+- <u>Concordancia de frase:</u> Indicamos que queremos que se activen los anuncios cuando se haya escrito exactamente toda la frase, aunque también se puede añadir más términos, además de eso.
+- <u>Concordancia exacta:</u> Indicamos que queremos que se muestre el anuncio sólo cuando la gente escriba exactamente esa frase, ni una palabra más, ni una menos. 
+- <u>Concordancia negativa:</u> en algunos casos los usuarios incluyen palabras en su búsqueda que dan indicio que nuestros anuncios no responderán a sus consultas. Para esos términos utilizamos la “concordancia negativa” haciéndole saber a Google Ads que si el usuario incluye esa palabra entonces no deberá mostrar el anuncio en cuestión.
+Ejemplo:
+
+| Concordancia                                                                                                                            | Palabra clave qué establece el anunciante | El anuncio se muestra si el usuario busca | El anuncio NO se muestra si el usuario busca |
+| :-------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- | ----------------------------------------- | -------------------------------------------- |
+| **Amplia:**  Sinónimos y otras búsquedas relacionadas y variaciones                                                                     | Pasajes Baratos                           | Vuelos económicos                         |                                              |
+| **Amplia modificada:**  las palabras con signo + tienen que estar mencionadas en la búsqueda del usuario para qué el anuncio se muestre | +Pasajes +Baratos                         | **Pasajes** a Bariloche **baratos**       | Vuelos económicos a Bariloche                |
+| **De frase:**  Tiene que estar escrito igual que lo declarado entre comillas                                                            | “pasajes baratos para navidad”            | **Pasajes baratos para navidad** a Miami  | Pasajes para navidad a Miami                 |
+| **Exacta:** Solo muestra anuncios con lo indicado entre corchetes                                                                       | [pasajes baratos a Chile]                 | **Pasajes baratos a Chile**               | Pasajes baratos a Santiago de Chile          |
+| **Negativa:** Excluye las palabras claves indicadas con un signo menos adelante                                                         | pasajes baratos  -avión                   | **Pasajes baratos** a Miami               | **pasajes baratos** en **avión** a Miami     |
