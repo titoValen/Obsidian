@@ -335,3 +335,40 @@ Algunas dimensiones son:
 Las dimensiones “atribución” y “fuente de tráfico” brindan datos sobre la procedencia del usuario (¿cómo llegó el usuario al sitio web?)
 - `Atribución:` Está relacionado con eventos de plataformas publicitarias (Google Ads, Search Ads 360 y Display & Video 360).
 - `Fuente de tráfico:` Se relaciona con usuario y sesiones de plataformas publicitarias.
+## Semana 12
+`Estructura de la cuenta de Google Analytics:` En una cuenta es posible identificar tres niveles:
+- Organización (opcional).
+- Cuenta de Analytics.
+- Propiedad de Analytics.
+Una **organización** representa una empresa y permite acceder a las cuentas de producto de esa empresa, así como gestionar los permisos que los usuarios tienen en productos concretos y las integraciones con otros productos.
+La **cuenta** es el medio de acceso a Analytics y contiene todas las propiedades de Analytics que cree. Cada usuario de Analytics puede tener una o varias cuentas, hasta un máximo de 100. Cada cuenta puede contener hasta 2000 propiedades
+Las **propiedades** son los contenedores en los que se almacenan los informes basados en los datos que recoge de sus aplicaciones y sitios web.
+**¿Por qué nos interesa tener dos cuentas de Google Analytics en un mismo gmail?:** A veces los clientes tienen más de un negocio. Por ejemplo, una marca de ropa puede tener una línea de negocio mayorista y otra minorista. Estos dos negocios son administrados de manera distinta y tienen equipos de trabajo diferentes.
+`Los informes en Google Analytics:` Google Analytics recoge datos del sitio web y crea informes con estadísticas sobre el comportamiento de los usuarios y los resultados obtenidos. Los informes permiten realizar un seguimiento sobre el tráfico al sitio web, consultar datos y conocer a los usuarios y su actividad.
+Cuando Google Analytics empieza a recibir datos, éstos se muestran como métricas y dimensiones en el informe "En tiempo real" y, poco después, en los demás informes.
+**Informe en tiempo real:** Muestra datos de eventos que ocurrieron en los últimos 30 minutos. Este informe es sumamente útil cuando se quiere dar seguimiento a una campaña o promoción que está ocurriendo en el momento. Permite detectar errores o posibilidades de mejora y hacer los ajustes necesarios
+**Informes del ciclo de vida:** Ofrecen información sobre el comportamiento de los usuarios en el sitio web, desde cómo ingresan al embudo de conversión hasta cómo interactúan en cada etapa.
+Dentro de “ciclo de vida” es posible visualizar cuatro conjuntos de informes que responden a preguntas estratégicas de marketing digital:
+- <u>Informe de Adquisición:</u> *¿Cómo llegaron los usuarios al sitio web?* Muestra cómo los usuarios llegan al sitio web, desde que fuentes, medios, campañas o palabras clave. También permite identificar las páginas o pantallas que visitan primero y cuánto tiempo permanecen en ellas.
+- <u>Informe de Interacción:</u> *¿qué eventos ha generado el usuario? ¿cómo ha interactuado con el sitio web?* (¿dónde hizo clic?) Muestra las acciones que realizan los usuarios, los contenidos que más consumen, los eventos o conversiones que generan y cómo se distribuyen por segmentos o audiencias.
+- <u>Informe de Monetización:</u> *¿Se han generado ventas (transacciones comerciales)?* Analizamos el rendimiento de la tienda virtual. Muestra cómo los usuarios contribuyen a generar ingresos para el sitio web, ya sea mediante compras, suscripciones, anuncios, etc. También permite ver el valor promedio de cada usuario y el retorno de la inversión (ROI) de las campañas digitales.
+- <u>Informe de Retención:</u> *¿Estamos logrando que el usuario se fidelice? luego de comprar, ¿el usuario vuelve al sitio web?* muestra cómo los usuarios vuelven al sitio web después de la primera visita, con qué frecuencia lo hacen, qué les motiva a regresar y cómo se comportan en cada sesión.
+**Informes de exploración:** Permiten analizar datos del comportamiento del usuario en el sitio web desde diferentes perspectivas, crear segmentos personalizados y visualizaciones claras para identificar oportunidades y áreas de mejora y tomar decisiones informadas.
+`Administración de la propiedad:`
+**Flujo de datos:** Llamamos “flujo de datos” al espacio donde le decimos a Google Analytics de dónde deberá registrar los datos. Al crear la cuenta vimos los tres flujos de datos disponibles en Google Analytics: Web, iOS y Android.
+El flujo de datos hace referencia al activo digital desde donde se quiere registrar el comportamiento de los usuarios.
+Vas a poder encontrarlo en el panel de administración, en la columna de “propiedad”.
+**Filtros de datos:** Google Analytics comienza a registrar la actividad de los usuarios en el sitio. Pero ese registro es general y, a veces, el sitio web recibe visitas que no son relevantes para la estrategia del negocio.
+Para evitar que las visitas de los dueños de las empresas, los empleados o los desarrolladores se registren, es posible aplicar filtros.
+De esta manera, Google Analytics no recolectará datos cuando esos usuarios visiten el sitio web.
+Puede definir los siguientes tipos de filtros de datos:
+- <u>Tráfico de desarrolladores:</u> excluye la actividad de los desarrolladores que usan el modo de depuración.
+- <u>Tráfico interno:</u> excluye a los usuarios con una dirección IP o con un intervalo de direcciones IP.
+
+> [!NOTE] Es muy importante que asesores a tu cliente e indagues sobre el uso que le dará al sitio web
+> Si estás trabajando en actualizar un sitio web que había sido creado por otra persona, lo primero que deberías preguntarle es si está usando Google Analytics, y si es así, deberías asesorarlo para que aplique un filtro de “tráfico de desarrolladores”.
+> 
+> Si estás creando el sitio por primera vez y le ofreciste la creación e instalación de la cuenta de Google Analytics, deberías preguntarle quienes accederán al sitio web con frecuencia y aplicar un filtro de “tráfico interno”.
+
+`Vinculación con otros productos de Google:` Vimos que, si el cliente tiene un sitio web probablemente quiera que éste aparezca en los resultados cuando un usuario busca en internet su producto o marca. En este sentido, en las unidades de SEO y SEM conocimos las plataformas que Google ofrece para que el dueño del sitio web pueda alcanzar sus objetivos de posicionamiento en motores de búsqueda: Google search Console y Google Ads.
+Es de esperarse que el dueño del sitio web quiera ver los resultados que está obteniendo con esas herramientas en Google Analytics. Y, por supuesto, es posible vincularlas.
