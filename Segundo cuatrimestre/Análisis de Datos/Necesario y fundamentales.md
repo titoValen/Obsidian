@@ -264,3 +264,74 @@ El **remarketing** también implica que la marca vuelva a aparecer en la realida
 `Los anuncios de Display:` Display es un formato publicitario online en el que los anuncios se muestran en forma de banners en sitios web que ofrecen espacios para ello.
 En su forma más básica, estos banners son una combinación de imágenes y texto. También pueden incluir audio, vídeo u otros formatos interactivos.
 Si bien es cierto que los anuncios de display se pueden mostrar a las personas que aún no conocen la marca y no han visitado aún el sitio web, lo más atractivo de este formato es que permite volver a mostrar un producto o servicio a alguien que aún no ha realizado una compra: el retargeting. 
+## Semana 11
+`¿Qué es Google Analytics?:` Google Analytics es una herramienta de análisis y seguimiento de sitios web y aplicaciones de Google.
+Con esta plataforma es posible monitorear características y comportamientos de los usuarios acceden al sitio web (y/o a la app) al que se está dando seguimiento, y conocer datos como: las páginas más visitadas, conversiones, dispositivos, ciudades, etc.
+Una característica importante de esta plataforma es que se puede integrar con otros servicios de Google, como Google Ads y Google Search Console y presentar un panorama mucho más completo del desempeño del sitio web al integrar datos recopilados por esas otras plataformas.
+Pero no cualquier persona puede acceder al monitoreo del sitio web o de la aplicación. Para poder ver datos, es necesario conectar Google Analytics con el sitio web al que se le quiere dar seguimiento.
+`¿Cómo funciona Google Analytics?:` 
+**Recolección de datos:** Para que Google Analytics pueda recopilar datos de un sitio web es preciso vincular el sitio web con la cuenta de Google Analytics.
+A continuación, se debe añadir un pequeño fragmento de código de medición JavaScript en cada página del sitio (la Etiqueta de Google).
+Cuando un usuario visita una página web, la etiqueta de seguimiento recoge información sobre cómo el usuario ha interactuado con la página en cuestión. Estas interacciones son llamadas “eventos”.
+La etiqueta de seguimiento también recogerá información del navegador, como la configuración de idioma, el tipo de navegador, el dispositivo y el sistema operativo en el que se usa el navegador.
+Incluso puede recoger la "fuente de tráfico". Se llama así a la forma en que los usuarios llegaron al sitio web en cuestión.
+Puede ser que el usuario haya realizado una búsqueda en un motor de búsqueda y haya hecho clic en un resultado de SEO o un anuncio de SEM o que la marca haya enviar una campaña de marketing por correo electrónico y en ella el usuario haya hecho clic en un enlace para visitar el sitio.
+**Procesamiento de datos y generación de informes:** Cuando la etiqueta de medición recoge datos, los agrupa y los envía a Google Analytics para que se procesen en los informes.
+Analytics procesa los datos, los agrega y organiza en función de criterios concretos: las métricas y dimensiones.
+
+> [!Importante]
+> Google Analytics es una herramienta que tiene como instrucción recopilar datos y ordenarlos a partir de un momento determinado y siguiendo indicaciones exactas (establecidas por quien crea y administra la cuenta de GA). Una vez que Analytics procesa los datos, estos se almacenan en una base de datos en la que no se pueden modificar.
+
+Hasta que la Etiqueta de Google no se instala en el sitio web, no se descargan cookies en los navegadores de los usuarios ni se realizan lecturas de datos. Recién cuando la Etiqueta de Seguimiento se instala es que ésta se activa con la visita de los usuarios y se comienzan a enviar datos a Google Analytics. Cuando el proceso termine y los datos se almacenen en la base de datos, se mostrarán en Google Analytics como informes.
+`¿Cómo identifica GA a los usuarios?:` Una de las mediciones más importantes para un sitio web es cuántos usuarios lo han visitado, pero ¿cómo hace Google Analytics para distinguir a un usuario de otro? Google Analytics 4 detecta a los usuarios a través de tres vías diferentes:
+- UserID: ID asignado por el sitio web.
+- Google Signal: ID asignado por Google.
+- Device ID: ID asignado automáticamente.
+<u>UserId:</u> SI los visitantes pueden "iniciar sesión" en el sitio web es posible indicarle a Google Analytics el id asignado a cada usuario. Así, cada vez que el usuario navegue logueado por el sitio web será identificado por 
+GA4.
+La principal desventaja de esta vía de identificación es que el usuario debe estar logueado para que se le pueda asignar la visita. Si no inicia sesión, Google Analytics 4 contabilizará la visita como un usuario nuevo, salvo que sea capaz de detectarlo por los otros métodos.
+<u>Google Signals:</u> es el id asignado por Google a través de las cookies de Google y su propia red de servicios.
+<u>Device ID:</u> Cuando Google Analytics no es capaz de asignar la sesión a un UserId, un ID anónimo es generado automáticamente por el código de seguimiento: ClientId en el caso de una visita web o InstaceId si se trata de una app.
+El Device Id puede detectar distintas sesiones (visitas al sitio web) desde un mismo dispositivo, pero no será capaz de asociar visitas desde diferentes dispositivos.
+**¿Cómo asigna Google Analytics el ID de usuario?:** Google siempre va a buscar una asociación en el mismo orden: Primero, tratará de encontrar un UserId al que asociarlo. Si no lo consigue, tratará de hacerlo a través de Google Signals y, en última instancia, usará el DeviceId.
+Es importante destacar que el DeviceId se genera siempre de forma automática, así que siempre existirá una forma de identificación de usuarios, aunque no se configure un UserId o Google Signals.
+`Eventos y conversiones:` En Google Analytics los eventos permiten medir interacciones o repeticiones concretas en un sitio web o aplicación. Por ejemplo, es posible usar un evento para medir cuándo un usuario carga una página, hace clic en un enlace o completa una compra.
+Algunos eventos se registran en Google Analytics de manera inmediata y otros es necesario configurarlos.
+
+| SITUACIÓN EN LA QUE SE ACTIVA AUTOMÁTICAMENTE                                                                                                                                                                     | EVENTO                  |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
+| La primera vez que un usuario visita un sitio web o inicia una aplicación instantánea Android con Analytics habilitado.                                                                                           | first_visit (web y app) |
+| Cuando un usuario hace clic en un enlace que lleva a uno de los siguientes tipos de archivo (con una extensión de archivo habitual): Documento, Texto, Ejecutable, Presentación, Archivo comprimido, Vídeo, Audio | file_download (web)     |
+| La primera vez que un usuario llega al final de cada página (es decir, cuando se hace visible el 90 % de la profundidad vertical).                                                                                | scroll (web)            |
+| Cada vez que se carga la página o que el sitio web activo cambia el estado del historial de navegación.                                                                                                           | page_view (web)         |
+Existen otro tipo de eventos que no se miden con la sola instalación de la cuenta de Google Analytics. Estos son: los “eventos recomendados” y los “eventos personalizados”.
+- Los eventos recomendados son aquellos que implementa el anunciante, pero tienen nombres y parámetros predefinidos. Es decir, no se recolectan por defecto por la plataforma, pero Google Analytics permite que el anunciante los vaya creando con los parámetros que ya están cargados.
+- Los eventos personalizados son aquellos que define el anunciante. Este tipo de eventos se utiliza cuando las interacciones que le interesa registrar al cliente no están pre diseñadas en Google Analytics, y requiere alguien altamente especializado en la plataforma para poder hacerlo.
+`Los eventos de conversión:` En Google Analytics, una conversión es cualquier interacción que resulta valiosa para la empresa.
+De igual manera que la habíamos definido en clases anteriores, una conversión está relacionada con que el usuario haya hecho aquello que esperábamos que hiciera.
+Con Google Analytics es posible hacer un seguimiento a estos clics del usuario que son importantes para el cliente, solo marcando como “conversión" un evento que mida esa interacción.
+`Métricas y dimensiones:` Google Analytics es un sistema que está basado en métricas y dimensiones:
+- <u>Métricas:</u> Datos numéricos que realmente se miden, (se suman, se promedian) como por ejemplo Visitas (cantidad), Tasa de Rebote (porcentaje), Páginas vistas (cantidad), etc. Hasta ahora los habíamos llamado “datos cuantitativos”.
+- <u>Dimensiones:</u> Formas de clasificar los datos numéricos por distintos criterios en grupos. Por ejemplo: Fuente (desde dónde llegan los visitantes), Dispositivo (qué usan los visitantes para navegar en el sitio web), País (desde dónde se reconoce que está el visitante al navegar el sitio web), etc. Hasta ahora los habíamos llamado “datos cualitativos”.
+`Métrica y dimensiones de Google Analytics:` Cuando se instala Google Analytics en el sitio web, algunas métricas y dimensiones se establecen automáticamente (se rellenan) ya que pueden ser recolectadas por la simple instalación de la Etiqueta de Google.
+Algunas métricas son:
+- `Total de usuarios:` EL número de Ids de usuarios únicos que han activado cualquier evento.
+- `Tiempo de interacción medio:` El promedio de tiempo que el sitio web ha estado en la pestaña activa del navegador del usuario o que la aplicación móvil se ha mostrado en primer plano en el dispositivo del usuario.
+- `Duración media de la sesión:` El promedio de duración (en segundos) de las sesiones de usuarios.
+- `POrcentaje de rebote:` El porcentaje de sesiones que no se consideran sesiones con interacción. Porcentaje de rebote = sesiones sin interacción / total de sesiones.
+
+> [!NOTE] Importante
+> Las métricas de publicidad se rellenan automáticamente al conectar Google Ads con Google Analytics.
+
+Algunas dimensiones son:
+`Navegador:` El navegador en que se originó la actividad del usuario.
+`Categoría de dispositivo:` El tipo de dispositivo desde el que se originó la actividad del usuario.
+`Idioma:` El nombre del idioma del dispositivo o navegador del usuario.
+`Ciudad:` La ciudad en la que se origina la actividad del usuario.
+
+> [!NOTE] Importante
+> Las dimensiones de datos demográficos se rellenan automáticamente al activar Google Signals.
+
+Las dimensiones “atribución” y “fuente de tráfico” brindan datos sobre la procedencia del usuario (¿cómo llegó el usuario al sitio web?)
+- `Atribución:` Está relacionado con eventos de plataformas publicitarias (Google Ads, Search Ads 360 y Display & Video 360).
+- `Fuente de tráfico:` Se relaciona con usuario y sesiones de plataformas publicitarias.

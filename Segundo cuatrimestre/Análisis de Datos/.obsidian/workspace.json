@@ -153,11 +153,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 483.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -168,13 +168,15 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false
+      "bases:Crear nueva base": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "0f12f2f0132af490",
   "lastOpenFiles": [
-    "Sin título.base",
+    "Sin título 1.base",
     "Necesario y fundamentales.md",
+    "Sin título.base",
     "Semana 2.md"
   ]
 }
