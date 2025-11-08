@@ -372,3 +372,29 @@ Puede definir los siguientes tipos de filtros de datos:
 
 `Vinculación con otros productos de Google:` Vimos que, si el cliente tiene un sitio web probablemente quiera que éste aparezca en los resultados cuando un usuario busca en internet su producto o marca. En este sentido, en las unidades de SEO y SEM conocimos las plataformas que Google ofrece para que el dueño del sitio web pueda alcanzar sus objetivos de posicionamiento en motores de búsqueda: Google search Console y Google Ads.
 Es de esperarse que el dueño del sitio web quiera ver los resultados que está obteniendo con esas herramientas en Google Analytics. Y, por supuesto, es posible vincularlas.
+## Semana 13
+`La dimensión "fuente de tráfico en Google Analytics":` Cuando estudiamos métricas y dimensiones de Google Analytics, vimos que las dimensiones de fuente de tráfico muestran datos que nos cuentan cómo llegó el usuario al sitio web. Entre ellas podemos encontrar:
+- <u>La fuente:</u> Google, Baidu, Bing.
+- <u>El medio:</u> Orgánico, CPC o correo electrónico.
+- <u>Iniciativas de marketing específicas:</u> Campañas, o palabras clave.
+Pero… ¿qué sucede cuando una campaña de marketing digital utiliza como medio el correo electrónico? ¿o una publicidad de Instagram? Es ahí donde deberemos recurrir al Etiquetado Manual.
+`Etiquetado manual y parámetro UTM:` El etiquetado manual supone que para cada medio que utilicemos como parte de la campaña digital, asignaremos una etiqueta única que le indicará a Google Analytics desde qué fuente llegó el tráfico.
+Para poder identificar las campañas desde las que llegan los usuarios a una determinada página web es posible utilizar UTM (Urchin Tracking Module): una serie de parámetros que son agregados a una URL para permitir a herramientas de análisis como Google Analytics entender y clasificar el tráfico que está llegando de una determinada campaña de marketing. Los parámetros UTM en una URL identifican la campaña que dirige el tráfico a un sitio web determinado.
+`Algunos de los parámetros UTM a configurar:`
+
+| Parámetro                          | Significado                                                                                                                             |
+| ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| Fuente: utm_source                 | Se utiliza para identificar la “Fuente” de la campaña, es decir: un motor de búsqueda, el nombre de un newsletter, una red social, etc. |
+| Medio: utm_medium                  | Se utiliza para identificar el “medio” de la campaña, es decir: cpc (costo por clic -anuncio de búsqueda), un email, un banner, etc.    |
+| Nombre de la Campaña: utm_campaign | Se utiliza para identificar una campaña en particular. Por ejemplo: “promoción grullas de la independencia”. o “promoción - navidad”    |
+| Palabras clave: utm_term           | Se utiliza sobre todo para campañas de búsqueda para identificar con qué palabras clave se muestra el sitio                             |
+Ejemplo: origamisdetamara.com?**utm_source**=facebook&**utm_medium**=cpc&**utm_campaign**=promocion_independencia
+`¿Qué son los reportes o los informes?:` Los informes y reportes son documentos que resumen una situación puntual. Usualmente estas palabras se utilizan como sinónimo, pero existen algunas diferencias entre éstas:
+- <u>Un informe es de carácter formal y global:</u> usualmente presenta una situación completa en un rango de fecha determinado y con una periodicidad establecida (“el informe trimestral”).
+- <u>Un reporte es de carácter un tanto más informal</u>, es un documento breve que describe una situación puntual - generalmente ligada a un evento inesperado (el reporte de las quejas por la caída del servidor).
+`Looker Studio:` Es una herramienta gratuita en línea para convertir datos en informes y paneles informativos personalizables.
+Esta plataforma permite convertir los datos en informes y paneles claros, totalmente personalizables y fáciles de consultar y compartir.
+El editor de informes incluye la función “arrastrar y soltar” y permite:
+- Mostrar la evolución de los datos mediante gráficos, como los de líneas, de barras y circulares, mapas geográficos, gráficos de área y de burbujas, tablas de datos paginados, tablas dinámicas y muchos más.
+- Utilizar los filtros del lector y los controles del periodo.
+- Incluir links e imágenes en las que se puede hacer clic para crear catálogos de productos, bibliotecas de vídeos y otro contenido interactivo.
